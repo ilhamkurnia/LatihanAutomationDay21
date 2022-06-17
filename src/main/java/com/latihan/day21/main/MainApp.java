@@ -13,7 +13,8 @@ public class MainApp {
 		
 		LoginPages lg = new LoginPages();
 		
-		lg.signIn();
+		lg.createAccount("ilhammcd@gmail.com");
+		lg.accountForm("ilham", "kurnia", "ilhammcd@gmail.com", "ilham1997", "20", "February", "1997");
 	}
 
 }
